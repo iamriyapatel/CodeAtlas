@@ -2,9 +2,9 @@
 
 CodeAtlas turns a JavaScript/TypeScript codebase into an interactive map of its structure and relationships.
 
-## Phase 1
+## Current scope
 
-This repository currently contains the smallest working skeleton: a React client connected to a Node API. The next milestone is repository ingestion and import analysis.
+CodeAtlas currently provides a React client, a Node API, and a TypeScript analyzer that scans JavaScript and TypeScript repositories. It identifies supported source files while excluding dependencies, generated output, and environment files.
 
 ## Development
 
@@ -13,4 +13,4 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:5173`.
+The application is intended for local development while the core features are being built. Hosting and deployment will be added after the product is complete.
